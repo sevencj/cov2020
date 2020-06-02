@@ -1,6 +1,9 @@
 # cov2020
 2020新冠病毒疫情实时追踪（中国地区）
 
+![Image](https://raw.githubusercontent.com/sevencj/cov2020/master/display.png)
+
+
 总体流程
 	
 	一、爬取cov疫情数据
