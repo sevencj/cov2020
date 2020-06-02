@@ -11,7 +11,7 @@
 
 	四、flask开发疫情数据追踪web
 
-
+==============================================================================================================================
 
 一、爬取cov疫情数据 （url：https://news.qq.com/zt2020/page/feiyan.htm#/?nojump=1）
 
@@ -22,6 +22,7 @@ https://view.inews.qq.com/g2/getOnsInfo?name=disease_other&callback=jQuery341082
 
 2. 分析json数据结构，编写spider， 提取需要的数据。
 
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 二、爬取疫情热搜话题 （url：https://voice.baidu.com/act/virussearch/virussearch?from=osari_map&tab=0&infomore=1）
 
@@ -29,6 +30,7 @@ https://view.inews.qq.com/g2/getOnsInfo?name=disease_other&callback=jQuery341082
 
 2. 通过selenium 模拟浏览器登录，点击， 获取数据等操作
 
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 三、将获取到的数据入库（mysql）
 
@@ -44,6 +46,7 @@ https://view.inews.qq.com/g2/getOnsInfo?name=disease_other&callback=jQuery341082
 
 5. update_hot_topic 更新热点数据 每次获取的数据都入库
 
+——————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————————
 
 四、flask开发疫情数据追踪web
 
